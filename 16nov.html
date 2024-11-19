@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td, th, table {
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+            border-spacing: 20px;
+        }
+    </style>
+</head>
+<body>
+   <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <!-- <th>Subject Marks</th> -->
+                <th>S&W Marks</th>
+                <th>PSP Marks</th>
+                <th>Maths Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Riddhi</td>
+                <td>rxiddhi@gmail.com</td>
+                <!-- <td>100</td>
+                <td>90</td>
+                <td>90</td> -->
+                <td colspan="3">100</td>
+            </tr>
+            <tr>
+                <td rowspan="2">ABC</td>
+                <td rowspan="2">abc@gmail.com</td>
+                <td>70</td>
+                <td>90</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <!-- <td>XYZ</td>
+                <td>xyz@gmail.com</td> -->
+                <td>80</td>
+                <td>85</td>
+                <td>74</td>
+            </tr>
+        </tbody>
+        <caption>Information</caption>
+        <caption style="caption-side:bottom">My savings</caption>
+   </table> 
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Begins here:</h2>
+    <form>
+        <label for="Referral code">referral code:</label>
+        <input id="referral code" type="checkbox"/><br>
+
+        <h4>Select your Gender:</h4>
+        <label for="male">Male</label>
+        <input
+        type="radio"
+        id="male"
+        value="male"
+        name="gender"
+        checked
+        />
+        <label for="female">Female</label>
+        <input
+        type="radio"
+        id="male"
+        value="male"
+        name="gender"
+        checked
+        /><br>
+
+        <label for="LunchTime">Lunch Time:</label>
+        <input
+        id="LunchTime"
+        type="time"
+        min="11:00:01"
+        max="23:00:04"
+        /><br>
+
+        <label for="name">drop your name here:</label>
+        <input id="name" type="name" required value="Sample Name" minlength="7" maxlength="10" size="25"/><br>
+
+        <label for="dob">drop your DOB here:</label>
+        <input id="dob" type="date" required/><br>
+
+        <label for="animals-select">Favourite Animals:</label>
+        <select id="animals-select" name="animals">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="parrot" selected>Parrot</option>
+            <option value="swan">Swan</option>
+        </select><br>
+
+        <label for="email">drop your email here:</label>
+        <input id="email" type="name" placeholder="hellu@xyz.com"/><br>
+        
+        <label for="password">drop your password here:</label>
+        <input id="password" type="password" required/><br>
+
+        <button type="submit">Submit Details</button>
+    </form>
+</body>
+</html>

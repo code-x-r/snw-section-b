@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Advanced Selectors Test</title>
+    <style>
+        body {
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#outer-box {
+    width: 280px;
+    height: 280px;
+    background-color: #007bff;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.middle-box {
+    width: 200px;
+    height: 200px;
+    background-color: #88B04B;
+    border: 4px solid white;
+    padding: 10px;
+}
+
+#outer-box .middle-box .inner-box {
+    width: 120px;
+    height: 120px;
+    background-color: #F7DC6F;
+    border: 3px solid red;
+}
+
+#outer-box .middle-box .inner-box span {
+    padding: 5px;
+}
+
+#outer-box .middle-box .inner-box span:nth-child(1) {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#outer-box .middle-box .inner-box span:nth-child(2) {
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#outer-box .middle-box .inner-box span:nth-child(3) {
+    color: green;
+    font-size: 25px;
+}
+      
+    </style>
+</head>
+<body>
+
+    <div id="outer-box">
+        <div class="middle-box">
+            <div class="inner-box">
+                <span>A</span>
+                <span>B</span>
+                <span>C</span>
+            </div>
+        </div>
+
+    
+    </div>
+
+</body>
+</html>
